@@ -14,10 +14,34 @@ ul {
 }
 
 .google #logo {
-    text-align: centre;
+    text-align: center;
     display: block;
     margin: auto;
     clear: both;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.search_bar {
+    text-align: center;
+}
+
+#search_box {
+    width: 400px;
+    height: 15px;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#footbar li {
+    display: inline;
+    padding: 8px;
+}
+
+.footer {
+    padding-top: 100px;
 }

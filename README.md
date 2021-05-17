@@ -7,28 +7,36 @@ have a good handle on how to use CSS>
 
 <html>
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;    
-}
-li{
-    display: inline;
-}
-</style>
+<link rel="stylesheet" href="google_style.css">
 </head>
     <body>
-        <ul class="horizontal">
+    <header>
+    <ul id="navbar">
     <li>
     <a href=#>About</a>
     </li>
     <li>
     <a href=#>Store</a>
     </ul>
-        <img src= "/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt= "Google Logo">
-        <div><input type="text"></div>
-        <div><button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button></div>        
+    </header>
+    <div class="google">
+    <a href="#" id="logo">
+        <img src= "/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt= "Google Logo"></div>
+        <div class="search_bar">
+        <form><input id="search_box" type="text" id="form-search" placeholder="Search Google or type URL"></form></div>
+        <div class="button"><button type="submit">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button></div> 
+        <div class="footer"><ul id="footbar">
+        <li>
+        <a href=#>Advertising</a>
+        </li>
+        <li>
+        <a href=#>Business</a> 
+        </li>
+        <li>
+        <a href=#>How Search Works</a>
+        </li></ul>
+        </div>       
     </body>
+
 </html>

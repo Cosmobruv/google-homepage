@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    float: left;
+}
+
+#navbar li {
+    display: inline;
+    padding: 8px;
+}
+
+.google #logo {
+    text-align: centre;
+    display: block;
+    margin: auto;
+    clear: both;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}

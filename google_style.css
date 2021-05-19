@@ -8,13 +8,16 @@ ul {
     float: left;
 }
 
-#navbar li {
+.navbar li {
     display: inline;
     padding: 8px;
 }
 
+#navbar_login {
+    float: right;
+}
+
 .google #logo {
-    text-align: center;
     display: block;
     margin: auto;
     clear: both;
@@ -22,19 +25,21 @@ ul {
     padding-bottom: 50px;
 }
 
-.search_bar {
+.text_center {
     text-align: center;
 }
 
 #search_box {
     width: 400px;
-    height: 15px;
 }
 
 .button {
+    padding-top: 30px;
+    padding-bottom: 400px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
     text-align: center;
-    display: block;
-    margin: auto;
 }
 
 #footbar li {

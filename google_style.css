@@ -1,20 +1,40 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
 }
 
-#navbar {
-    float: left;
-}
-
-.navbar li {
-    display: inline;
-    padding: 8px;
-}
-
-#navbar_login {
+.navbar {
     float: right;
+}
+
+.navbar li a {
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.app_icon {
+    height: 25px;
+    bottom: 5px;
+    position: relative;
+}
+
+.sign_in {
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    font-weight: bold;
+    color: cornsilk;
+    background-color: rgb(43, 93, 201);
 }
 
 .google #logo {
@@ -52,6 +72,13 @@ ul {
     font-size: 15px;
     outline: none;
     border: none;
+}
+
+.microphone {
+    position: relative;
+    height: 20px;
+    top: 5px;
+    left: 10px;
 }
 
 .button_padding {

@@ -7,8 +7,11 @@ ul {
     float: right;
 }
 
+.navbar li {
+    display: inline-block;
+}
+
 .navbar li a {
-    display: block;
     padding: 10px 10px;
     text-align: center;
     font-size: 14px;
